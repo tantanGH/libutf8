@@ -1,7 +1,7 @@
 # libutf8
 UTF-8 to CP932 string conversion library for elf2x68k
 
-UTF-8形式の文字列をCP932(ShiftJIS)に変換するためのライブラリです。
+elf2x68k環境でUTF-8形式の文字列をCP932(ShiftJIS)に変換するためのライブラリです。
 ルックアップテーブルによる実装なのでそれなりにメモリを使います。
 
 提供される関数は一つだけです。
