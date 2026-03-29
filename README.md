@@ -13,7 +13,7 @@ void utf8_to_cp932(uint8_t* cp932_buffer, size_t cp932_buffer_bytes, const uint8
 使う時は、サブモジュールとして組み込むのが簡単です。例えばプロジェクト直下にて以下を実行します。
 
 ```
-git submodule add https://github.com/tantanGH/libutf8.git libs/libutf16
+git submodule add https://github.com/tantanGH/libutf8.git libs/libutf8
 ```
 
 以下のようなツリーとなります。
@@ -25,7 +25,7 @@ my_app/
 ├── libs/
 │   └── libutf16/
 │       ├── include/
-│       └── lib/libutf16.a
+│       └── lib/libutf8.a
 └── src/
     ├── main.c
     └── Makefile
